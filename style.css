@@ -684,8 +684,8 @@ font-size: 1.3vh;
   font-size: 200%;
 }
 .perfil1 .per {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -821,7 +821,7 @@ a {
 	overflow: hidden;
 }
 
-.table-buy p {
+.table-buy h2 {
 	float: left;
 	color: #000000;
 	font-weight: 700;
