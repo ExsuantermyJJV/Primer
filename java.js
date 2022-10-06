@@ -15,3 +15,21 @@ let countDown = new Date('oct 11, 2022 16:38:00').getTime(),
         document.getElementById('segundos').innerText = Math.floor((distance % (minute)) / second);
 
     }, second)
+
+ const secondd = 1000,
+      minutee = secondd * 60,
+      hourr = minutee * 60,
+      dayy = hourr * 24;
+
+let countDown1 = new Date('oct 11, 2022 16:38:00').getTime(),
+    x1 = setInterval(function() {
+
+      let now = new Date().getTime(),
+          distance = countDown - now;
+
+      document.getElementById('diass').innerText = Math.floor(distance / (day)),
+        document.getElementById('horass').innerText = Math.floor((distance % (day)) / (hour)),
+        document.getElementById('minutoss').innerText = Math.floor((distance % (hour)) / (minute)),
+        document.getElementById('segundoss').innerText = Math.floor((distance % (minute)) / second);
+
+    }, second)
