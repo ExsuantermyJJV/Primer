@@ -3,7 +3,7 @@ const second = 1000,
       hour = minute * 60,
       day = hour * 24;
 
-let countDown = new Date('oct 11, 2022 16:38:00').getTime(),
+let countDown = new Date('oct 18, 2022 16:38:00').getTime(),
     x = setInterval(function() {
 
       let now = new Date().getTime(),
@@ -21,7 +21,7 @@ let countDown = new Date('oct 11, 2022 16:38:00').getTime(),
       hourr = minutee * 60,
       dayy = hourr * 24;
 
-let countDown1 = new Date('oct 11, 2022 16:38:00').getTime(),
+let countDown1 = new Date('oct 18, 2022 16:38:00').getTime(),
     x1 = setInterval(function() {
 
       let now = new Date().getTime(),
